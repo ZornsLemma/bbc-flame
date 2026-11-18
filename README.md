@@ -1,6 +1,6 @@
 # Flame
 
-A flame animation for the BBC Micro/Master range.
+A flame animation for the BBC Micro/Master range. You can try it [live in your browser on jsbeeb](url=https://bbc.xania.org/?disc1=github:ZornsLemma/bbc-flame/releases/flame-0001.zip&autoboot).
 
 ## Credits
 
