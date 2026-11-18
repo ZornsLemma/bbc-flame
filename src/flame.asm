@@ -289,7 +289,7 @@ endif
     bcs no_key_pressed
     cpx #'0':bcc no_key_pressed
     cpx #'3'+1:bcs no_key_pressed
-    txa:sbc #'0':tax
+    txa:sec:sbc #'0':tax
     lda #vdu_set_palette:jsr oswrch
     txa:jsr oswrch
     lda physical_colour_table,x:clc:adc #1:and #7:sta physical_colour_table,x:jsr oswrch
